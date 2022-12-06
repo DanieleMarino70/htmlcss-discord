@@ -1,7 +1,15 @@
 @font-face {
 	font-family: 'Whitney';
-	src:  url('../fonts/whitneymedium.otf') format('opentype'),
-		  url('../fonts/whitneymedium.otf') format('opentype');
+	src: url('../fonts/whitneymedium.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+  @font-face {
+	font-family: 'Whitney';
+	src: url('../fonts/whitneybold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
   }
 
   body{
@@ -126,6 +134,7 @@
 
 .content > h1 {
 	font-size: 3rem;
+	font-weight: bold;
 	text-align: center;
 }
 
