@@ -22,6 +22,22 @@
 .d-flex{
 	display: flex;
 }
+
+.wave-grey{
+	background-image: url('../img/wave-grey.svg');
+	background-repeat:no-repeat;
+	background-position: bottom;
+	
+}
+
+.wave-white{
+	background-image: url('../img/wave-white.svg');
+	background-repeat:no-repeat;
+	background-position: bottom;
+	
+}
+
+
 /* PADDING */
 
 .p1 {
