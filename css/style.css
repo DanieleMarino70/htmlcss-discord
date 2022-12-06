@@ -17,7 +17,7 @@
 	padding: 10px 0;
 
 	/* debug */
-	background-color: #3161E0;
+	background-color: #255ee9;
 }
 
 .fa-stack{
@@ -26,7 +26,7 @@
 	
 }
 .fa-brands.fa-discord{
-	color: #3161E0; 
+	color: #255ee9; 
 	
 }
 
@@ -103,17 +103,71 @@
 
 
 	/* debug */
-	background-color: darkblue;
+	background-image: url('../img/jumbo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .jumbotron .content {
+	display: flex;
+	flex-flow: column;
+	color: white;
 	min-height: 400px;
 	width: 50%;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
 
 	/* debug */
-	background-color: #ee82ee;
+	/* background-color: #ee82ee; */
 	border: 2px dashed black;
 }
+
+.content > h1 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.content > p {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.content-row {
+	display: flex;
+	gap: 20px;
+	min-width: 70%;
+	min-height: 50px;
+	font-size: 1.2rem;
+}
+
+.content-row .download-mac{
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 25px;
+	text-align: center;
+	min-width: 45%;
+
+	cursor: pointer;
+}
+
+.content-row .open-browser{
+	background-color: #23272a;
+	border: 1px solid #23272a;
+	border-radius: 25px;
+	text-align: center;
+	min-width: 50%;
+	
+	cursor: pointer;
+	color: white;
+}
+
+.fa-solid.fa-down-long{
+	margin-right: 10px;
+}
+
+
 
 /* MAIN & SECTIONS */
 
