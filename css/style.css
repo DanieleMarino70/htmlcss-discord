@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'Whitney';
+	src:  url('../fonts/whitneymedium.otf') format('opentype'),
+		  url('../fonts/whitneymedium.otf') format('opentype');
+  }
+
+  body{
+	font-family: 'Whitney';
+  }
+
 /* HEADER */
 
 .header-head {
@@ -7,7 +17,17 @@
 	padding: 10px 0;
 
 	/* debug */
-	background-color: lightblue;
+	background-color: #3161E0;
+}
+
+.fa-stack{
+	line-height: 1.6em;
+	font-size: 1.1em;
+	
+}
+.fa-brands.fa-discord{
+	color: #3161E0; 
+	
 }
 
 .header-nav {
@@ -16,24 +36,64 @@
 	line-height: 30px;
 }
 
+.header-logo{
+	display: flex;
+	color: white;
+	font-size: 1.1rem;
+	
+
+	/* debug */
+	/* background-color: lightcoral; */
+}
+
+.header-logo > *{
+	cursor: pointer;
+}
+
 .header-nav>* {
 	flex-basis: 20%;
 	padding: 5px 10px;
+	align-items: center;
 
+	
 	/* debug */
-	background-color: goldenrod;
-	border: 2px dashed black;
+	/* background-color: goldenrod; */
+	/* border: 2px dashed black; */
 }
 
 .header-links {
+	display: flex;
 	flex-grow: 1;
 	text-align: center;
+	justify-content: center;
+	align-items: center;
+	
 }
 
-.header-login {
-	text-align: right;
+.header-links > ul {
+	color: white;
+    justify-content: center;
+    gap: 30px;
+	font-size: 1.1rem;
 }
 
+.header-login{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-login > *{
+	display: inline-block;
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 20px;
+	text-align: center;
+	min-width: 40%;
+
+	cursor: pointer;
+	
+	
+}
 /* JUMBOTRON */
 
 .jumbotron {

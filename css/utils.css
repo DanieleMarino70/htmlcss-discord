@@ -19,6 +19,9 @@
 	display: table;
 }
 
+.d-flex{
+	display: flex;
+}
 /* PADDING */
 
 .p1 {
