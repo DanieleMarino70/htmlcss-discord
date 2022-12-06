@@ -16,7 +16,7 @@
 	font-family: 'Whitney';
   }
 
-  img{
+  main section img{
 	width: 100%;
   }
 /* HEADER */
@@ -254,6 +254,36 @@ main>section>.container {
 	text-align: center;
 	font-size: 1.3rem;
 	margin: 0 100px;
+}
+
+.ready-box {
+	display: flex;
+	gap: 20px;
+	height: 150px;
+	font-size: 1.2rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../img/stars.svg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.ready-box > h2{
+	font-size: 1.5rem;
+	font-weight: bold;
+	
+}
+
+.ready-box > button{
+	background-color: #8ea1e1;
+	border: 10px solid #8ea1e1;
+	border-radius: 25px;
+	text-align: center;
+	min-width: 20%;
+
+	color: white;
+	cursor: pointer;
 }
 
 /* FOOTER */
