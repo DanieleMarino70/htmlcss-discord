@@ -31,15 +31,6 @@
 	background-color: #255ee9;
 }
 
-.fa-stack{
-	line-height: 1.6em;
-	font-size: 1.1em;
-	
-}
-header .fa-brands.fa-discord{
-	color: #255ee9; 
-	
-}
 
 .header-nav {
 	display: flex;
@@ -52,7 +43,6 @@ header .fa-brands.fa-discord{
 	color: white;
 	font-size: 1.1rem;
 	
-
 	/* debug */
 	/* background-color: lightcoral; */
 }
@@ -344,6 +334,10 @@ main>section>.container {
 	gap: 20px;
 }
 
+.socials-row > *{
+	cursor: pointer;
+}
+
 .footer-side-col {
 	display: flex;
 	width: calc(100% / 3 * 2);
@@ -368,6 +362,8 @@ main>section>.container {
 .footer-col > nav > ul > li {
 	margin: 10px 0px;
 	color: white;
+
+	cursor: pointer;
 }
 
 
@@ -400,6 +396,7 @@ main>section>.container {
 .footer-logo{
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 
 .footer-logo > div{
