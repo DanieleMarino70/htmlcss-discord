@@ -36,7 +36,7 @@
 	font-size: 1.1em;
 	
 }
-.fa-brands.fa-discord{
+header .fa-brands.fa-discord{
 	color: #255ee9; 
 	
 }
@@ -299,19 +299,49 @@ main>section>.container {
 .footer-upper {
 	display: flex;
 	padding-bottom: 50px;
-	margin-bottom: 50px;
-	border-bottom: 2px solid purple;
+	margin-bottom: 25px;
+	border-bottom: 2px solid #7289da;
 
 	/* debug */
 	min-height: 500px;
 }
 
 .footer-main-col {
+	display: flex;
+	padding: 10px;
 	width: calc(100% / 3);
-
+	flex-direction: column;
+	align-items: flex-start;
 	/* debug */
-	background-color: #f08080;
-	border: 2px dashed black;
+	/* background-color: #f08080; */
+	/* border: 2px dashed black; */
+}
+
+.footer-main-col > h4{
+	margin-bottom: 20px;
+	font-size: 2rem;
+	font-weight: 700;
+	width: 70%;
+	color: #7188d9;
+}
+
+
+
+.language-selection > *{
+	width: 20px;
+	color: white;
+}
+
+.fa-solid.fa-chevron-down{
+	font-size: 0.7rem;
+}
+
+.socials-row{
+	display: flex;
+	margin-top: 20px;
+	font-size: 1.3rem;
+	color: white;
+	gap: 20px;
 }
 
 .footer-side-col {
@@ -319,33 +349,61 @@ main>section>.container {
 	width: calc(100% / 3 * 2);
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed black;
+	/* background-color: #20b2aa; */
+	/* border: 2px dashed black; */
 }
 
 .footer-col {
 	width: 25%;
-
+	padding: 10px;
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed white;
+	/* background-color: #20b2aa; */
+	/* border: 2px dashed white; */
 }
+
+.footer-col > h5 {
+	margin: 5px 0px;
+	color: #7188d9;
+}
+.footer-col > nav > ul > li {
+	margin: 10px 0px;
+	color: white;
+}
+
 
 .footer-bottom {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	min-height: 80px;
-
+	padding-bottom: 50px;
 	/* debug */
-	background-color: #7fffd4;
+	/* background-color: #7fffd4; */
 }
 
-.footer-bottom>* {
-	padding: 5px 10px;
+.footer-bottom > button {
+	/* padding: 5px 10px; */
 
+	background-color: #8ea1e1;
+	border: 10px solid #8ea1e1;
+	border-radius: 25px;
+	min-width: 10%;
+	
+	color: white;
+	cursor: pointer;
 
 	/* debug */
-	background-color: #ffb6c1;
-	border: 2px dashed black;
+	/* background-color: #ffb6c1; */
+	/* border: 2px dashed black; */
 }
+
+.footer-logo{
+	display: flex;
+	align-items: center;
+}
+
+.footer-logo > div{
+	font-size: 1.2rem;
+	color:white;
+}
+
