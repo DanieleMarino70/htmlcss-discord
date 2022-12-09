@@ -39,6 +39,37 @@
 	
 }
 
+.btn.black{
+	border: 5px solid #23272a;
+	background-color: #23272a;
+	min-width: 40%;
+	border-radius: 20px;
+	cursor: pointer;
+
+	color: white;
+}
+
+.btn.white{
+	border: 5px solid white;
+	background-color: white;
+	min-width: 40%;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.btn.purpleblue{
+	background-color: #8ea1e1;
+	border: 10px solid #8ea1e1;
+	border-radius: 20px;
+	color: white;
+}
+
+.btn.purpleblue.md{
+	min-width: 20%;
+}
+.btn.purpleblue.sm{
+	min-width: 10%;
+}
 
 /* PADDING */
 
